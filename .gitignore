@@ -1,11 +1,26 @@
+.idea/*
+
+# Dependencies
+/vendor
 /node_modules
+/storage/*.key
+
+# Public
 /public/hot
 /public/storage
-/storage/*.key
-/vendor
+/public/img/*
+public/mix-manifest.json
+public/js/*
+public/css/*
+
+# Cache
+.php_cs.cache
+.phpunit.result.cache
+
+# Env
 .env
 .env.backup
-.phpunit.result.cache
+
 Homestead.json
 Homestead.yaml
 npm-debug.log
