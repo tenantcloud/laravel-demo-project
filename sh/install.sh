@@ -17,7 +17,7 @@ add_scheduler
 composer_install
 
 # Yarn install modules
-yarn
+run_yarn_i
 
 # Set APP_KEY
 generate_app_key

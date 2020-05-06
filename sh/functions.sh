@@ -51,7 +51,7 @@ function composer_install() {
     || messageError "Error. $MSG"
 }
 
-function yarn() {
+function run_yarn_i() {
   MSG="Yarn install modules"
   yarn \
     && message "Success. $MSG" \
