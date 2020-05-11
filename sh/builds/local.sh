@@ -6,9 +6,7 @@ start=`date +%s`
 
 update_project
 
-yarn
-
-npm_run_production
+run_yarn_i
 
 set_permission
 
